@@ -8,6 +8,6 @@ namespace Lab19_Wpf.Models
 {
    static class Ariph
     {
-       public static int Add(int a, int b)=>a+b;
+       public static double Add(double a)=> 2 *a*Math.PI;
     }
 }

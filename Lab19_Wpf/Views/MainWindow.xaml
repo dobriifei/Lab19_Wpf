@@ -8,15 +8,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Window.DataContext>
-
         <vm:MainWindowVeiwModel/>
     </Window.DataContext>
-    
-    
     <StackPanel>
-        <TextBox Text="{Binding Path=Number1}"/>
+        <Button Content="Введите радиус"/>
         <TextBox Text="{Binding Path=Number2}"/>
-        <Button Content="Суммировать" Command="{Binding Path=AddCommand}"/>
+        <Button Content="Рассчитать длину окружности" Command="{Binding Path=AddCommand}"/>
         <TextBox Text="{Binding Path=Number3}"/>
     </StackPanel>
 </Window>
